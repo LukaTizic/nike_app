@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Nike webstore](https://nextjs.org/) project. Providing [`Demo-link`](https://nike-ebon-eight.vercel.app/).
 
 ## Getting Started
 
