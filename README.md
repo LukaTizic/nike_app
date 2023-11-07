@@ -1,4 +1,4 @@
-This is a [Nike webstore](https://nextjs.org/) project with [`Demo-link`](https://nike-ebon-eight.vercel.app/).
+This is a [`Nike web-store`](https://nextjs.org/) project with [`Demo-link`](https://nike-ebon-eight.vercel.app/).
 
 ## Getting Started
 
