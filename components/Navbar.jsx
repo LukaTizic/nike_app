@@ -1,9 +1,18 @@
+"use client";
+
 import { headerLogo } from "@/public/images";
 import Image from "next/image";
 import { navLinks } from "@/constants";
 import { hamburger } from "@/public/icons";
+import { useState } from "react";
 
 const Navbar = () => {
+  const [showNav, setShowNav] = useState(true);
+
+  const handleNav = () => {
+    setShowNav(!showNav);
+  };
+
   return (
     <header className='padding-x py-8 absolute z-10 w-full'>
       <nav className='flex justify-between items-center max-container'>
@@ -24,8 +33,37 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <div className='hidden max-lg:block'>
-          <Image src={hamburger} alt='hamburger' width={25} height={25} />
+        <div className='hidden max-lg:block '>
+          <Image
+            src={hamburger}
+            alt='hamburger'
+            width={25}
+            height={25}
+            onClick={handleNav}
+            className={` cursor-pointer lg:hidden ${
+              showNav ? "inline-block rotate-90" : ""
+            }`}
+          />
+          <ul
+            className={
+              showNav
+                ? "  py-2 text-xl font-bold absolute right-2 text-gray-700 lg:hidden shadow-xl "
+                : "hidden"
+            }
+          >
+            {navLinks.map((link) => (
+              <li key={link.label}>
+                <a
+                  href={link.href}
+                  className=' block px-20 py-5 
+                  text-red-600 hover:bg-red-600 hover:text-white  
+'
+                >
+                  {link.label}
+                </a>
+              </li>
+            ))}
+          </ul>
         </div>
       </nav>
     </header>
