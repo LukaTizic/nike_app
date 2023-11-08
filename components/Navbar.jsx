@@ -20,12 +20,15 @@ const Navbar = () => {
           <Image src={headerLogo} alt='logo' width={130} height={29} />
         </a>
 
-        <ul className='flex-1 flex justify-center items-center gap-16 max-lg:hidden'>
+        <ul className='flex-1 flex justify-end items-center gap-16 max-lg:hidden'>
           {navLinks.map((link) => (
             <li key={link.label}>
               <a
                 href={link.href}
-                className='fonts-montserrat leading-normal text-lg text-slate-gray hover:underline hover:text-slate-800  
+                className='fonts-montserrat leading-normal font-bold text-lg text-slate-gray 
+                
+                hover:text-red-500
+                
 '
               >
                 {link.label}
