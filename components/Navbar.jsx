@@ -25,7 +25,9 @@ const Navbar = () => {
             <li key={link.label}>
               <a
                 href={link.href}
-                className='fonts-montserrat leading-normal font-bold text-lg text-slate-gray 
+                className='fonts-montserrat leading-normal font-bold text-lg text-slate-gray
+                hover:border-b-2
+                hover:border-red-500 
                 
                 hover:text-red-500
                 
