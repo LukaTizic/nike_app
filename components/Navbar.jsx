@@ -7,7 +7,7 @@ import { hamburger } from "@/public/icons";
 import { useState } from "react";
 
 const Navbar = () => {
-  const [showNav, setShowNav] = useState(true);
+  const [showNav, setShowNav] = useState(false);
 
   const handleNav = () => {
     setShowNav(!showNav);
