@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./Button";
+import { arrowRight } from "@/public/icons";
 
 const Hero = () => {
   return (
@@ -15,7 +16,7 @@ const Hero = () => {
             for your active life.
           </p>
           <p>Our Summer collection</p>
-          <Button />
+          <Button label='Shop Now' iconURL={arrowRight} />
         </div>
       </div>
     </section>
