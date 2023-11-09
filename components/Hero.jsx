@@ -32,7 +32,7 @@ const Hero = () => {
             Discover stylist <span className='text-red-500'>Nike</span>{" "}
             arrivals, quality, comfort, and innovation for your active life.
           </p>
-          <a href='https://www.nike.com/w/new-3n82y' target='_blank'>
+          <a href='https://www.nike.com/w/new-shoes-3n82yzy7ok' target='_blank'>
             <Button label='Shop Now' iconURL={arrowRight} />
           </a>
           <div className='flex justify-start items-start flex-wrap w-full mt-20 gap-16'>
