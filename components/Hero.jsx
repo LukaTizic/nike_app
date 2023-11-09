@@ -32,7 +32,9 @@ const Hero = () => {
             Discover stylist <span className='text-red-500'>Nike</span>{" "}
             arrivals, quality, comfort, and innovation for your active life.
           </p>
-          <Button label='Shop Now' iconURL={arrowRight} />
+          <a href='https://www.nike.com/w/new-3n82y' target='_blank'>
+            <Button label='Shop Now' iconURL={arrowRight} />
+          </a>
           <div className='flex justify-start items-start flex-wrap w-full mt-20 gap-16'>
             {statistics.map((item) => (
               <div key={item.label}>
@@ -55,7 +57,7 @@ const Hero = () => {
             className='relative z-10 object-contain'
           />
           <div>
-            <div className='flex sm:gap-6 gap-4 absolute -bottom-[5%] sm:left-[10%] max-sm:px-6'>
+            <div className='flex sm:gap-6 gap-4 absolute -bottom-[10%]  xl:bottom-[2%] sm:left-[10%] max-sm:px-6'>
               {shoes.map((image, index) => (
                 <div key={index}>
                   <ShoeCard
