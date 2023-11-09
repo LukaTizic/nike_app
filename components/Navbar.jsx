@@ -1,9 +1,9 @@
 "use client";
 
-import { headerLogo } from "@/public/images";
+import { headerLogo } from "@/assets/images";
 import Image from "next/image";
 import { navLinks } from "@/constants";
-import { hamburger } from "@/public/icons";
+import { hamburger } from "@/assets/icons";
 import { useState } from "react";
 
 const Navbar = () => {
