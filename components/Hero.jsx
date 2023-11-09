@@ -3,6 +3,7 @@ import Button from "./Button";
 import { arrowRight } from "@/public/icons";
 import { statistics, shoes } from "@/constants";
 import { bigShoe1 } from "@/public/images";
+import ShoeCard from "./ShoeCard";
 
 const Hero = () => {
   return (
@@ -48,6 +49,15 @@ const Hero = () => {
             alt='shoe collection'
             className='relative z-10 object-contain'
           />
+          <div>
+            <div>
+              {shoes.map((shoe) => (
+                <div key={shoe}>
+                  <ShoeCard />
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </section>
