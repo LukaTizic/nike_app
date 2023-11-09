@@ -23,6 +23,10 @@
   }
 }
 
+.bg-hero {
+  background-image: url("../public/images/collection-background.svg");
+}
+
 @layer utilities {
   .padding {
     @apply sm:px-16 px-8 sm:py-24 py-12;
