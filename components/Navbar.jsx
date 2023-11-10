@@ -7,14 +7,14 @@ import { hamburger } from "@/assets/icons";
 import { useState } from "react";
 
 const Navbar = () => {
-  const [showNav, setShowNav] = useState(false);
+  const [showNav, setShowNav] = useState(true);
 
   const handleNav = () => {
     setShowNav(!showNav);
   };
 
   return (
-    <header className='padding-x py-8 absolute z-10 w-full'>
+    <header className='padding-x py-8 absolute z-20 w-full'>
       <nav className='flex justify-between items-center max-container'>
         <a href='/'>
           <Image src={headerLogo} alt='logo' width={130} height={29} />
@@ -38,7 +38,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <div className='hidden max-lg:block '>
+        <div className='hidden max-lg:block  '>
           <Image
             src={hamburger}
             alt='hamburger'
@@ -52,7 +52,7 @@ const Navbar = () => {
           <ul
             className={
               showNav
-                ? "  py-2 text-xl font-bold absolute right-2 text-gray-700 lg:hidden shadow-xl "
+                ? "   text-xl font-bold absolute right-0 border-2 border-red-500 text-gray-700 lg:hidden shadow-xl  "
                 : "hidden"
             }
           >
@@ -60,7 +60,7 @@ const Navbar = () => {
               <li key={link.label}>
                 <a
                   href={link.href}
-                  className=' block px-20 py-5 
+                  className=' bg-white block px-20 py-5 
                   text-red-600 hover:bg-red-600 hover:text-white  
 '
                 >
