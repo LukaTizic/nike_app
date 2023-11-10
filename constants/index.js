@@ -52,23 +52,27 @@ export const statistics = [
 export const products = [
   {
     imgURL: shoe4,
-    name: "Nike Air Jordan-01",
+    name: "Nike Air Force 1",
     price: "$200.20",
+    url: "https://www.nike.com/w/air-force-1-shoes-5sj3yzy7ok",
   },
   {
     imgURL: shoe5,
-    name: "Nike Air Jordan-10",
+    name: "Nike Air Max 90",
     price: "$210.20",
+    url: "https://www.nike.com/w?q=Nike%20Air%20Max%2090&vst=Nike%20Air%20Max%2090",
   },
   {
     imgURL: shoe6,
-    name: "Nike Air Jordan-100",
+    name: "Nike Dunk Low",
     price: "$220.20",
+    url: "https://www.nike.com/w?q=nike%20dunk%20low&vst=nike%20dunk%20low",
   },
   {
     imgURL: shoe7,
-    name: "Nike Air Jordan-001",
+    name: "Nike Air Jordan 1",
     price: "$230.20",
+    url: "https://www.nike.com/w?q=nike%20air%20jordan%201&vst=nike%20air%20jordan%201",
   },
 ];
 
