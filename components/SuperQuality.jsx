@@ -8,7 +8,7 @@ const SuperQuality = () => {
   return (
     <section
       id='about-us'
-      className='padding border-2 border-red-500 flex justify-between items-center max-lg:flex-col gap-10 w-full max-container'
+      className='padding  flex justify-between items-center max-lg:flex-col gap-10 w-full max-container'
     >
       <div className='flex flex-1 flex-col'>
         <h2 className='font-palanquin capitalize text-4xl lg:max-w-lg font-bold'>
