@@ -1,5 +1,7 @@
 import { products } from "@/constants";
 import PopularProductCard from "./PopularProductCard";
+import Button from "./Button";
+import { arrowRight } from "@/assets/icons";
 
 const PopularProducts = () => {
   return (
@@ -13,10 +15,16 @@ const PopularProducts = () => {
           selections. discover a world of comfort, design, and value!
         </p>
       </div>
+
       <div className='mt-16 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 sm:gap-6 gap-14'>
         {products.map((product) => (
           <PopularProductCard key={product.name} {...product} />
         ))}
+      </div>
+      <div className='mt-10 flex justify-end'>
+        <a href='https://www.nike.com/w/mens-best-76m50znik1' target='_blank'>
+          <Button label='See More' iconURL={arrowRight} />
+        </a>
       </div>
     </section>
   );
