@@ -1,6 +1,8 @@
 import React from "react";
 import Button from "./Button";
 import { arrowRight } from "@/assets/icons";
+import Image from "next/image";
+import { shoe8 } from "@/assets/images";
 
 const SuperQuality = () => {
   return (
@@ -27,6 +29,15 @@ const SuperQuality = () => {
             <Button label='View details' iconURL={arrowRight} />
           </a>
         </div>
+      </div>
+      <div className='flex-1 flex justify-center items-center'>
+        <Image
+          src={shoe8}
+          alt='shoe'
+          width={570}
+          height={522}
+          className='object-contain'
+        />
       </div>
     </section>
   );
