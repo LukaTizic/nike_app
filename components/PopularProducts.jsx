@@ -21,7 +21,7 @@ const PopularProducts = () => {
           <PopularProductCard key={product.name} {...product} />
         ))}
       </div>
-      <div className='mt-10 flex justify-end'>
+      <div className=' flex justify-end mt-10'>
         <a href='https://www.nike.com/w/mens-best-76m50znik1' target='_blank'>
           <Button label='See More' iconURL={arrowRight} />
         </a>
