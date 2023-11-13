@@ -7,7 +7,7 @@ const PopularProductCard = ({ imgURL, name, price, url }) => {
     <div className='flex flex-1 flex-col w-full max-sm:w-full'>
       <a href={url} target='_blank'>
         <Image
-          className='bg-[#c0c3dd] rounded-lg shadow-md shadow-[#c0c3dd] hover:shadow-xl hover:border-2 hover:border-red-500'
+          className='bg-[#c0c3dd] rounded-lg shadow-md shadow-[#c0c3dd] hover:shadow-xl hover:border-2 hover:border-red-500 hover:z-20 hover:scale-110'
           src={imgURL}
           alt={name}
           width={280}
