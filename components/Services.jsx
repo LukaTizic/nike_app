@@ -6,7 +6,7 @@ const Services = () => {
   return (
     <section className='padding-x py-10 max-w-container flex justify-center flex-wrap gap-9 '>
       {services.map((service) => (
-        <ServiceCard />
+        <ServiceCard key={service.label} {...service} />
       ))}
     </section>
   );
