@@ -79,18 +79,18 @@ export const products = [
 export const services = [
   {
     imgURL: truckFast,
-    label: "WHAT ARE NIKE'S SHIPPING OPTIONS?",
+    label: "What are NIKE's shipping options?",
     text: "Nike Members get free standard shipping on orders of $50 or more (and discounted expedited shipping)—just sign in during checkout and you will automatically get free shipping on qualifying orders.",
   },
   {
     imgURL: shieldTick,
-    label: "WHAT IS NIKE'S RETURN POLICY?",
-    text: "We give you 60 days to try out your Nike purchase to make sure it works exactly right for you.",
+    label: "What is NIKE's return policy?",
+    text: "We give you 60 days to try out your Nike purchase to make sure it works exactly right for you. Please note the 60-day return period represents a temporary extension of our return policy.",
   },
   {
     imgURL: support,
-    label: "WHAT IS NIKE MEMBERSHIP?",
-    text: "Nike Membership gives you access to inspiration, community, and exclusive Nike products and experiences. It’s the best way to access everything Nike and it’s free, fast, and easy to join. You can join us online or when you download any of the Nike apps.",
+    label: " What is NIKE membership?",
+    text: "Nike Membership gives you access to inspiration, community, and exclusive Nike products and experiences. It’s the best way to access everything Nike and it’s free, fast, and easy to join. ",
   },
 ];
 
