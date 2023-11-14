@@ -1,8 +1,8 @@
 import React from "react";
-import { arrowRight } from "@/assets/icons";
 import { offer } from "@/assets/images";
 import Button from "./Button";
 import Image from "next/image";
+import { arrowRight } from "@/assets/icons";
 
 const SpecialOffer = () => {
   return (
