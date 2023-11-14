@@ -76,6 +76,21 @@ export const products = [
   },
 ];
 
+export const emailService = [
+  {
+    label: "Inquiries & Support",
+    text: "Have questions about orders, products, or general assistance? Reach out to our dedicated team, and we'll get back to you promptly.",
+  },
+  {
+    label: "Feedback & Suggestions",
+    text: "Share your thoughts! We value your feedback. Let us know your suggestions or comments on how we can enhance your experience.",
+  },
+  {
+    label: "Corporate Inquiries",
+    text: "For media inquiries, business partnerships, or corporate information, contact our corporate office.",
+  },
+];
+
 export const services = [
   {
     imgURL: truckFast,
