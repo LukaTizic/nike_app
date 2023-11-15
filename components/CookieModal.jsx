@@ -11,8 +11,8 @@ const CookieModal = ({ modalOff }) => {
       <div className='fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity'></div>
 
       <div className='fixed inset-0 z-10 w-screen overflow-y-auto '>
-        <div className='flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0 text-slate-gray'>
-          <div className='relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg'>
+        <div className='flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0 text-slate-gray '>
+          <div className='relative transform overflow-hidden rounded-lg bg-white text-left shadow-3xl shadow-gray-800 transition-all sm:my-8 sm:w-full sm:max-w-lg '>
             <div className='bg-white px-4 pb-4 pt-5 sm:p-6 sm:pb-4'>
               <div className='sm:flex sm:items-start'>
                 <div className='mx-auto flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-red-100 sm:mx-0 sm:h-10 sm:w-10'>
@@ -39,13 +39,13 @@ const CookieModal = ({ modalOff }) => {
                     Terms of Service
                   </h3>
                   <div className='mt-2 flex flex-col justify-start items-align  pr-5  '>
-                    <p className='text-base text-gray-500 leading-relaxed border-b mb-5 py-5'>
+                    <p className='text-base text-gray-500 leading-relaxed border-y border-red-500 mb-5 mt-5 py-5 '>
                       With less than a month to go before the European Union
                       enacts new consumer privacy laws for its citizens,
                       companies around the world are updating their terms of
                       service agreements to comply.
                     </p>
-                    <p className=' text-base text-gray-500 leading-relaxed pb-5'>
+                    <p className=' text-base text-gray-500 leading-relaxed pb-5 border-b border-red-500 mb-5  '>
                       The European Union's General Data Protection Regulation
                       (G.D.P.R.) goes into effect on May 25 and is meant to
                       ensure a common set of data rights in the European Union.
