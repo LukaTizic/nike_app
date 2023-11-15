@@ -17,7 +17,7 @@ const Footer = () => {
       </div>
       <div className='text-white flex flex-row justify-center mt-3 items-center cursor-pointer gap-16'>
         {socialMedia.map((item) => (
-          <a href={item.link} key={item.alt}>
+          <a href={item.link} target='_blank' key={item.alt}>
             <Image src={item.src} width={24} height={24} />
           </a>
         ))}
