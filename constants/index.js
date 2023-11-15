@@ -125,7 +125,7 @@ export const reviews = [
 ];
 
 export const socialMedia = [
-  { src: facebook, alt: "facebook logo" },
-  { src: twitter, alt: "twitter logo" },
-  { src: instagram, alt: "instagram logo" },
+  { src: facebook, alt: "facebook logo", link: "https://facebook.com" },
+  { src: twitter, alt: "twitter logo", link: "https://twitter.com/" },
+  { src: instagram, alt: "instagram logo", link: "https://instagram.com/" },
 ];
