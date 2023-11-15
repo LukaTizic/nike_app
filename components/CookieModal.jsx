@@ -47,11 +47,12 @@ const CookieModal = ({ modalOff }) => {
                     </p>
                     <p className=' text-base text-gray-500 leading-relaxed pb-5 border-b border-red-500 mb-5  '>
                       The European Union's General Data Protection Regulation
-                      (G.D.P.R.) goes into effect on May 25 and is meant to
-                      ensure a common set of data rights in the European Union.
-                      It requires organizations to notify users as soon as
-                      possible of high-risk data breaches that could personally
-                      affect them.
+                      (G.D.P.R.) goes into effect on{" "}
+                      <span className='font-bold'>1st of January 2024</span> and
+                      is meant to ensure a common set of data rights in the
+                      European Union. It requires organizations to notify users
+                      as soon as possible of high-risk data breaches that could
+                      personally affect them.
                     </p>
                   </div>
                 </div>
@@ -71,7 +72,7 @@ const CookieModal = ({ modalOff }) => {
               <button
                 onClick={modalOff}
                 type='button'
-                className='inline-flex w-full justify-center rounded-md bg-red-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500 sm:ml-3 sm:w-auto max-sm:text-red'
+                className='inline-flex w-full justify-center rounded-md bg-red-600 px-3 py-2 text-sm font-semibold text-white shadow-sm  sm:ml-3 sm:w-auto max-sm:text-red hover:text-black '
               >
                 I understand
               </button>
