@@ -30,8 +30,7 @@ const SpecialOffer = () => {
           exclusive member discounts. Elevate your style and game while enjoying
           incredible savings both online and in-store.
         </p>
-
-        <p className='mt-10 info-text'>
+        <p className='mt-5 info-text'>
           Join Nike's membership program for access to special discounts,
           birthday offers, and free shipping on all orders. Keep an eye on our
           periodic clearance events for amazing deals. Get your favorite Nike
