@@ -1,8 +1,10 @@
+import { socialMedia } from "@/constants";
 import React from "react";
+import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className='bg-black padding-x padding-t pb-8 text-white '>
+    <footer className='bg-black padding-x pt-8 pb-8 text-white '>
       <div className='flex justify-center items-center'>
         &copy; 2023{" "}
         <a
@@ -12,6 +14,13 @@ const Footer = () => {
           Luka
         </a>
         {"  "}| All rights reserved
+      </div>
+      <div className='text-white flex flex-row items-center'>
+        {socialMedia.map((item) => (
+          <div key={item.alt}>
+            <Image src={item.src} width={24} height={24} />
+          </div>
+        ))}
       </div>
     </footer>
   );
