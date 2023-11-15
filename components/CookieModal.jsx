@@ -38,7 +38,7 @@ const CookieModal = ({ modalOff }) => {
                   >
                     Terms of Service
                   </h3>
-                  <div className='mt-2 flex flex-col justify-start items-align pr-5  '>
+                  <div className='mt-2 flex flex-col justify-start items-align  pr-5  '>
                     <p className='text-base text-gray-500 leading-relaxed border-b mb-5 py-5'>
                       With less than a month to go before the European Union
                       enacts new consumer privacy laws for its citizens,
@@ -57,11 +57,11 @@ const CookieModal = ({ modalOff }) => {
                 </div>
               </div>
             </div>
-            <div className='bg-gray-200 px-4 py-3 justify-between sm:flex  sm:px-6'>
-              <p className='pt-2 text-sm text-gray-500'>
+            <div className='bg-gray-200 px-4 py-3 justify-between sm:flex  sm:px-6 '>
+              <p className='pt-2 text-sm text-gray-500 flex max-sm:justify-center max-sm:pb-5'>
                 For more information please contact{" "}
                 <a
-                  className=' underline hover:text-cyan-300'
+                  className=' underline hover:text-red-500 pl-1'
                   href='https://github.com/LukaTizic'
                   target='_blank'
                 >
@@ -71,7 +71,7 @@ const CookieModal = ({ modalOff }) => {
               <button
                 onClick={modalOff}
                 type='button'
-                className='inline-flex w-full justify-center rounded-md bg-red-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500 sm:ml-3 sm:w-auto'
+                className='inline-flex w-full justify-center rounded-md bg-red-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500 sm:ml-3 sm:w-auto max-sm:text-red'
               >
                 I understand
               </button>
