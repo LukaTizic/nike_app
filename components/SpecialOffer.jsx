@@ -25,18 +25,21 @@ const SpecialOffer = () => {
           Promos & Discounts
         </h2>
         <p className='mt-4 info-text'>
-          Explore the latest discounts and promos. Enjoy free shipping on orders
-          $50+ as a Nike Member.
+          Discover unbeatable deals at Nike! From top-tier sneakers to
+          performance-driven apparel, explore our ongoing seasonal sales and
+          exclusive member discounts. Elevate your style and game while enjoying
+          incredible savings both online and in-store.
         </p>
 
+        <p className='mt-10 info-text'>
+          Join Nike's membership program for access to special discounts,
+          birthday offers, and free shipping on all orders. Keep an eye on our
+          periodic clearance events for amazing deals. Get your favorite Nike
+          gear at prices that fit your budget!
+        </p>
         <h1 className='mt-5 text-3xl font-bold flex justify-center items-center font-montserrat underline'>
           SAVE UP TO 55%
         </h1>
-        <p className='mt-10 info-text'>
-          Shop the Black Friday Sale before the crown -- sign in and use code{" "}
-          <span className='font-bold'>*ACCESS</span> for an extra 25% off select
-          styles. Ends soon.
-        </p>
         <div className='mt-11 flex flex-wrap gap-4'>
           <a href='https://www.nike.com/promo-code'>
             <Button label='Shop now' iconURL={arrowRight} />
