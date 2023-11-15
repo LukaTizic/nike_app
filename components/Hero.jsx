@@ -6,10 +6,16 @@ import Button from "./Button";
 import ShoeCard from "./ShoeCard";
 import { bigShoe1 } from "@/assets/images";
 import { arrowRight } from "@/assets/icons";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import CookieModal from "./CookieModal";
 
 const Hero = () => {
   const [bigShoeImg, setBigShoeImg] = useState(bigShoe1);
+  const [modalIsOpened, setModalIsOpened] = useState(true);
+
+  const modalOff = () => {
+    setModalIsOpened(false);
+  };
 
   return (
     <section
@@ -72,6 +78,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      {modalIsOpened && <CookieModal modalOff={modalOff} />}
     </section>
   );
 };
