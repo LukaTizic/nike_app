@@ -1,4 +1,3 @@
-import React from "react";
 import { emailService } from "@/constants";
 import SubscribeCard from "./SubscribeCard";
 import Button from "./Button";

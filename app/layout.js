@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "Nike",
-  description: "Nike webstore",
+  description: "Nike Webstore",
 };
 
 export default function RootLayout({ children }) {

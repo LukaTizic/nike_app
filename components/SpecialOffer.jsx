@@ -1,4 +1,3 @@
-import React from "react";
 import { offer } from "@/assets/images";
 import Button from "./Button";
 import Image from "next/image";

@@ -1,4 +1,3 @@
-import React from "react";
 import Button from "./Button";
 import { arrowRight } from "@/assets/icons";
 import Image from "next/image";

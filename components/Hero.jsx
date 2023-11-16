@@ -6,7 +6,7 @@ import Button from "./Button";
 import ShoeCard from "./ShoeCard";
 import { bigShoe1 } from "@/assets/images";
 import { arrowRight } from "@/assets/icons";
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 import CookieModal from "./CookieModal";
 
 const Hero = () => {
