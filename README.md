@@ -1,8 +1,15 @@
 This is a `Nike web-store` project with [`Demo-link`](https://nike-ebon-eight.vercel.app/).
 
+## Hero section
 ![Hero section img](assets/images/hero.png)
+
+## Cookies modal
 ![Cookies Modal img](assets/images/CookiesModal.png)
+
+## Support section
 ![Support section img](<assets/images/Support section.png>)
+
+## Mobile responsive view
 ![Responsive](assets/images/mobile.png)
 
 ## Getting Started
