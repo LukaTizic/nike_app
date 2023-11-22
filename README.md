@@ -1,7 +1,8 @@
 
-<p align='center'>👟</p>
 
-This is a `Nike web-store ` project with [`Demo-link`](https://nike-ebon-eight.vercel.app/). 
+This is a ` 👟 Nike web-store ✔️ ` project with [`Demo-link`](https://nike-ebon-eight.vercel.app/). 
+
+
 
 
 
