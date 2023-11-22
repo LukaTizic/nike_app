@@ -16,9 +16,8 @@ This is a ` 👟 Nike web-store ✔️ ` project with [`Demo-link`](https://nike
 # <h3 align="center">Support section</h3>
 ![Support section img](<assets/images/Support section.png>)
 
-# <h3 align="start">Mobile responsive</h3>
-![Responsive](assets/images/mobile.png)
-
+# <h3 align="center">Mobile responsive</h3>
+# <h3 align="center">![Responsive](assets/images/mobile.png)</h3>
 ## Getting Started
 
 First, run the development server:
