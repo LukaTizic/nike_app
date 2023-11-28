@@ -1,12 +1,5 @@
-
-
 This is a ` 👟 Nike web-store ✔️ ` project with [`Demo-link`](https://nike-ebon-eight.vercel.app/). 
-
-
-
-
-
-
+</br>
  # <h3 align="center">Hero section</h3>
 ![Hero section img](assets/images/hero.png)
 
