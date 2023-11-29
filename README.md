@@ -11,6 +11,9 @@ This is a ` 👟 Nike web-store ✔️ ` project with [`Demo-link`](https://nike
 
 # <h3 align="center">Mobile responsive</h3>
 # <h3 align="center">![Responsive](assets/images/mobile.png)</h3>
+
+---
+
 ## Getting Started
 
 First, run the development server:
